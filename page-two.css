@@ -1,0 +1,44 @@
+.page-two {
+  height: 90vh;
+  border-width: 2px;
+  border-style: solid;
+  position: relative;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+}
+
+.introduction-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  row-gap: 50px;
+}
+
+.introduction-word {
+  font-size: 14vw; /*350px*/
+  font-family: "Copperplate", fantasy;
+  color: white;
+  text-shadow: -8px 8px 0px #020078;
+  text-align: center;
+}
+
+.introduction-text {
+  font-size: 27px;
+  font-family: "Arial", Gadget, sans-serif;
+  color: white;
+  max-width: 55vw;
+}
+
+#profile-2 {
+  height: 90%;
+  position: absolute;
+  bottom: 0;
+  right: 10%; /* move its left edge to the middle */
+  transform: translateX(10%);
+}
+

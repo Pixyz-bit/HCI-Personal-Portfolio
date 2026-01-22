@@ -18,16 +18,21 @@
 }
 
 
-.left-section {
-  display: flex;
+.icon-logo {
+  height: 55px;
 }
 
-.right-section {
+.hyperlinks-container {
   display: flex;
   column-gap: 30px;
+  align-items: center;
 }
 
-.right-section p {
-  display: inline-block;
+.header-hyperlinks{
   color: white;
+  text-decoration: none;
+}
+
+.header-hyperlinks:hover{
+  text-decoration: underline;
 }

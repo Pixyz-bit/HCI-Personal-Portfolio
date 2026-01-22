@@ -17,6 +17,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5px;
 }
 
 .subject-word {
@@ -53,7 +54,6 @@ body {
   font-size: 30px;
   font-family: "Arial", Gadget, sans-serif;
   color: white;
-  margin: 0;
 }
 
 .icons-container {
@@ -65,3 +65,4 @@ body {
 .link-icons {
   height: 50px;
 }
+
