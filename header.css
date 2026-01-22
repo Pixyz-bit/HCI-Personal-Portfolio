@@ -11,25 +11,23 @@
   background-color: white;
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: rgb(228, 228, 228);
-padding-left: 30px;
-padding-right: 30px;
-background-color: rgb(0, 15, 44);
+  border-bottom-color: rgb(0, 0, 0);
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(0, 15, 44);
 }
 
 
-
-.left-section{
+.left-section {
   display: flex;
 }
 
-.right-section{
+.right-section {
   display: flex;
   column-gap: 30px;
 }
 
-.right-section p{
+.right-section p {
   display: inline-block;
   color: white;
 }
-
